@@ -1,10 +1,10 @@
-##Using Kafka in the Docker
+## Using Kafka in the Docker
 
 ```
 docker-compose up
 ```
 
-##Using Kafka installed in machine
+## Using Kafka installed in machine
 
 Download bin ![kafka](https://kafka.apache.org/downloads)
 
