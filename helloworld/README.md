@@ -1,3 +1,11 @@
+#Using Kafka in the Docker
+
+```
+docker-compose up
+```
+
+#Using Kafka installed in machine
+
 Download bin ![kafka](https://kafka.apache.org/downloads)
 
 ## Start zookeeper
@@ -16,13 +24,13 @@ Download bin ![kafka](https://kafka.apache.org/downloads)
 -Go to kafka \bin\windows directory 
 
 ```
-kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic PocKafka
+.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic GREETINGS
 ```
 
 ## Listing topic
 
 ```
-kafka-topics.bat --list --bootstrap-server localhost:9092
+.\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
 ```
 
 ## Describe topic
